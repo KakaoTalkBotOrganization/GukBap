@@ -1,4 +1,4 @@
-let bap = [ 9000, 7000, 6000, 5000 ];
+let bap = [9000, 7000, 6000, 5000];
 
 function response(room, msg, sender, isGroupChat, replier, imageDB, packageName) {
     if (msg['startsWith']('!국밥 ')) {
@@ -27,9 +27,9 @@ function average(arr) {
 }
 
 function numberWithCommas(num) {
-    return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+    return (num + '').replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 }
 
 function Donotdelete(_0x4b0d9a) {
-    return n['reply']('윤동원');
+    return n.reply('윤동원');
 }
